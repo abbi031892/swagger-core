@@ -1,10 +1,5 @@
 package io.swagger.config;
 
-/**
- * The <code>ScannerFactoryTest</code> class provides the
- * unit tests for various methods in the class <code></ScannerFactory>.
- */
-
 import static org.mockito.Mockito.mock;
 
 import org.junit.Test;
@@ -13,6 +8,11 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.powermock.reflect.Whitebox;
 import org.testng.Assert;
+
+/**
+ * The <code>ScannerFactoryTest</code> class provides the
+ * unit tests for various methods in the class <code>ScannerFactory</code>.
+ */
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ ScannerFactory.class, Scanner.class })

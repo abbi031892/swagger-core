@@ -1,11 +1,5 @@
 package io.swagger.util;
 
-/**
-* The <code>PathUtilsTest</code> class provides the
-* unit test for parsePath() and cutParameter() in
-* <code>PathUtils</code> class.
-*/
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -14,7 +8,6 @@ import java.text.StringCharacterIterator;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
-//import org.testng.asserts.;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,6 +16,12 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.powermock.reflect.Whitebox;
+
+/**
+* The <code>PathUtilsTest</code> class provides the
+* unit test for parsePath() and cutParameter() in
+* <code>PathUtils</code> class.
+*/
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest( {StringUtils.class, CharacterIterator.class, StringCharacterIterator.class})

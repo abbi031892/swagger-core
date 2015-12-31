@@ -1,15 +1,15 @@
 package io.swagger.util;
 
-/**
- * The <code>ReflectionUtilsTest</code> class provides the unit test cases
- * for getDeclaredFields() in the class </code>ReflectionUtils</code>.
- */
-
 import java.lang.reflect.Field;
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+/**
+ * The <code>ReflectionUtilsTest</code> class provides the unit test cases
+ * for getDeclaredFields() in the class </code>ReflectionUtils</code>.
+ */
 
 public class ReflectionUtilsTest {
 

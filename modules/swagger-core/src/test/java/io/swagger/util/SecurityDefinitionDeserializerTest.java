@@ -1,10 +1,5 @@
 package io.swagger.util;
 
-/**
- * The <code>SecurityDefinitionDeserializerTest</code> class provides the
- * unit test for deserialize() in the class SecurityDefinitionDeserializer class.
- */
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -22,6 +17,11 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.swagger.models.auth.BasicAuthDefinition;
+
+/**
+ * The <code>SecurityDefinitionDeserializerTest</code> class provides the
+ * unit test for deserialize() in the class SecurityDefinitionDeserializer class.
+ */
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ Json.class })

@@ -1,10 +1,5 @@
 package io.swagger.converter;
 
-/**
- * The <code>ModelConverterContextImplTest</code> class provides the
- * unit tests for various methods in class <code>ModelConverterContextImpl</code>.
- */
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -26,6 +21,11 @@ import org.testng.Assert;
 
 import io.swagger.models.Model;
 import io.swagger.models.properties.Property;
+
+/**
+ * The <code>ModelConverterContextImplTest</code> class provides the
+ * unit tests for various methods in class <code>ModelConverterContextImpl</code>.
+ */
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ Logger.class, ModelConverterContextImpl.class })

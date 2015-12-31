@@ -1,11 +1,5 @@
 package io.swagger.util;
 
-/**
- * The <code>PropertyDeserializerTest</code> class provides the
- * unit test for getXML() & PropertyFromNode() in the class
- * <code>PropertyFromDeserializer</code> class.
- */
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 import static org.testng.Assert.assertEquals;
@@ -24,6 +18,12 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import io.swagger.models.Xml;
 import io.swagger.models.properties.PropertyBuilder;
 import io.swagger.models.properties.RefProperty;
+
+/**
+ * The <code>PropertyDeserializerTest</code> class provides the
+ * unit test for getXML() & PropertyFromNode() in the class
+ * <code>PropertyFromDeserializer</code> class.
+ */
 
 public class PropertyDeserializerTest {
 

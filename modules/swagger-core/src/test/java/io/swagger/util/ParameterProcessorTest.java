@@ -30,6 +30,11 @@ import io.swagger.models.parameters.BodyParameter;
 import io.swagger.models.parameters.Parameter;
 import io.swagger.models.properties.Property;
 
+/**
+* The <code>ParameterProcessorTest</code> class provides the
+* unit test for applyAnnotations() in <code>PathUtils</code> class.
+*/
+
 @RunWith(PowerMockRunner.class)
 @PrepareForTest( { ParameterProcessor.class, AllowableValuesUtils.class, ModelConverters.class })
 public class ParameterProcessorTest {

@@ -1,10 +1,5 @@
 package io.swagger.util;
 
-/**
- * The <code>ParameterDeserializerTest</code> class provides the
- * unit tests for various method in class <code>ParameterDeserializer</code>.
- */
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -23,6 +18,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.swagger.models.parameters.CookieParameter;
 import io.swagger.models.parameters.FormParameter;
+
+/**
+ * The <code>ParameterDeserializerTest</code> class provides the
+ * unit tests for various method in class <code>ParameterDeserializer</code>.
+ */
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ Json.class })

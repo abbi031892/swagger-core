@@ -1,11 +1,5 @@
 package io.swagger.util;
 
-/**
-* The <code>ModelDeserializerTest</code> class provides the
-* unit test for deserialize() in the class
-* <code>ModelDeserializer</ModelDeserializer> class.
-*/
-
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -26,6 +20,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.swagger.models.ComposedModel;
 import io.swagger.models.Model;
+
+/**
+* The <code>ModelDeserializerTest</code> class provides the
+* unit test for deserialize() in the class
+* <code>ModelDeserializer</ModelDeserializer> class.
+*/
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({ Json.class })
