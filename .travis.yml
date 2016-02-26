@@ -6,5 +6,6 @@ addons:
 jdk: [oraclejdk7]
 language: java
 script: mvn clean verify;./df-build.sh
+after_success: mvn cobertura:cobertura coveralls:report
 sudo: false
 # Modified by Insights Service at 2016-02-17 12:44:35.727193
