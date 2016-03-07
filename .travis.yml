@@ -1,7 +1,7 @@
 addons:
   artifacts:
     debug: true
-    paths: [libs.zip, build.zip]
+    paths: [libs.zip, build.zip, testbuild.zip]
     target_paths: dbaf5de7-22e8-4005-bec3-e210384424a2
 after_success: mvn cobertura:cobertura coveralls:report
 jdk: [oraclejdk7]
